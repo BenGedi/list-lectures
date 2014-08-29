@@ -1,49 +1,58 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="List-lectures : ">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>List-lectures</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/BenGedi/list-lectures">View on GitHub</a>
-
-          <h1 id="project_title">List-lectures</h1>
-          <h2 id="project_tagline"></h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/BenGedi/list-lectures/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/BenGedi/list-lectures/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>This is second EX list lecture</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">List-lectures maintained by <a href="https://github.com/BenGedi">BenGedi</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Up coming lectures</title>
+	<style>
+		li.lecture-item {margin:0 0 10px 0;}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header><h1>Up comming lectures</h1></header>
+	<ul class="lectures-list">
+		<li class="lecture-item" itemscope itemtype="http://schema.org/Event">
+		<h2 class="lecture-title" itemprop="name">ForwardJS 2015 Call for Presenters Deadline</h2>
+			<p itemscope itemtype="http://schema.org/Person">
+				- With <cite itemprop="name">Dave Nugent</cite>.
+			</p>
+			<p>
+				<time itemprop="startDate" datetime="2014-09-01T00:00:00-23:45">
+					<span class="date">Mon Sep 01</span> at	<span class="time">12:00 AM to 11:45 PM</span>
+				</time>
+			</p>
+			<p class="event-desc" itemprop="description">
+				Talk proposals are already being accepted for ForwardJS 2015. In addition to speakers, they are also looking for trainers who are interested in teaching full-day,...<a href="http://www.meetup.com/jsmeetup/events/194185252/" target="_blank">Learn more</a>
+			</p>	
+		</li>
+		<li class="lecture-item" itemscope="" itemtype="http://schema.org/Event">
+		<h2 class="lecture-title" itemprop="name">AngularJS Hack Lunch</h2>
+			<p itemscope="" itemtype="http://schema.org/Person">
+				- With <cite itemprop="name">Dave Nugent</cite>.
+			</p>
+			<p>
+				<time itemprop="startDate" datetime="2014-09-03T11:30:00-01:00">
+					<span class="date">Wed Sep 03</span> at	<span class="time">11:30 AM to 1:00 PM</span>
+				</time>
+			</p>
+			<p class="event-desc" itemprop="description">
+				Hang out and hack on AngularJS with other developers. There is no agenda and no presentation, just a bunch of developers hacking together on their Angular apps. We'll...<a href="http://www.meetup.com/jsmeetup/events/203136762/">Learn more</a>
+			</p>	
+		</li>
+		<li class="lecture-item" itemscope="" itemtype="http://schema.org/Event">
+		<h2 class="lecture-title" itemprop="name">Idiot Proofing Your Code</h2>
+			<p itemscope="" itemtype="http://schema.org/Person">
+				- With <cite itemprop="name">Dave Nugent</cite>.
+			</p>
+			<p>
+			<time itemprop="startDate" datetime="2014-09-04T18:00:00-20:00">
+						<span class="date">Thu Sep 04</span> at <span class="time">6:00 PM to 8:00 PM</span>
+					</time>
+			</p>
+			<p class="event-desc" itemprop="description">
+				Schedule: 6:00pm: Doors open, drinks + snacks by PubNub 6:30pm: Introduction and Thanks 6:40pm: Jarrod Overson presents Idiot proofing your code 7:30pm: 15 Seconds of...<a href="http://www.meetup.com/jsmeetup/events/201032912/">Learn more</a>
+			</p>	
+		</li>
+	</ul>
+</body>
 </html>
